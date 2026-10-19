@@ -1,0 +1,14 @@
+node_modules/
+.npm/
+
+# secrets — 공개 저장소이므로 절대 커밋 금지
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 측정 원본 레코드. 집계된 CSV 만 커밋한다
+runs/*.jsonl
+
+.DS_Store

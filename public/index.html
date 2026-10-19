@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Roleplay</title>
+<style>
+  :root {
+    --bg:#15161a; --panel:#1d1f25; --line:#2c2f38; --text:#e8e9ed;
+    --dim:#8b8f9a; --me:#2f5fd0; --accent:#4ade80;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--text);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
+    display:flex; flex-direction:column; height:100vh;
+  }
+  header {
+    padding:12px 16px; border-bottom:1px solid var(--line);
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+  }
+  header h1 { font-size:15px; margin:0 8px 0 0; font-weight:600; }
+  select, button {
+    background:var(--panel); color:var(--text); border:1px solid var(--line);
+    border-radius:7px; padding:6px 10px; font-size:13px; font-family:inherit;
+  }
+  button { cursor:pointer; }
+  button:hover { border-color:#4a4f5c; }
+  label { font-size:12px; color:var(--dim); display:flex; gap:5px; align-items:center; }
+
+  #log { flex:1; overflow-y:auto; padding:20px 16px; }
+  .wrap { max-width:720px; margin:0 auto; }
+  .msg { margin-bottom:14px; display:flex; }
+  .msg.user { justify-content:flex-end; }
+  .bubble {
+    max-width:78%; padding:9px 13px; border-radius:14px;
+    background:var(--panel); white-space:pre-wrap; word-break:break-word;
+  }
+  .msg.user .bubble { background:var(--me); }
+  .meta { font-size:11px; color:var(--dim); margin-top:4px; font-variant-numeric:tabular-nums; }
+  .cached { color:var(--accent); }
+  .hint { color:var(--dim); text-align:center; padding:40px 0; font-size:14px; }
+
+  footer { border-top:1px solid var(--line); padding:12px 16px; }
+  .inputrow { max-width:720px; margin:0 auto; display:flex; gap:8px; }
+  #text {
+    flex:1; background:var(--panel); color:var(--text); border:1px solid var(--line);
+    border-radius:9px; padding:10px 12px; font:inherit; resize:none; min-height:42px; max-height:140px;
+  }
+  #send { padding:0 18px; background:var(--me); border-color:var(--me); font-weight:600; }
+  #send:disabled { opacity:.45; cursor:default; }
+  #stats { max-width:720px; margin:8px auto 0; font-size:11px; color:var(--dim); font-variant-numeric:tabular-nums; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>English Roleplay</h1>
+  <select id="scenario"></select>
+  <select id="strategy">
+    <option value="full">full</option>
+    <option value="window">window</option>
+    <option value="summary">summary</option>
+  </select>
+  <label><input type="checkbox" id="stream" checked> 스트리밍</label>
+  <button id="reset">새 대화</button>
+</header>
+
+<div id="log"><div class="wrap"><div class="hint">시나리오를 고르고 영어로 말을 걸어보세요.</div></div></div>
+
+<footer>
+  <div class="inputrow">
+    <textarea id="text" placeholder="영어로 입력…  (Enter 전송, Shift+Enter 줄바꿈)"></textarea>
+    <button id="send">보내기</button>
+  </div>
+  <div id="stats"></div>
+</footer>
+
+<script type="module">
+const $ = s => document.querySelector(s);
+const log = $('#log').firstElementChild;
+let scenarios = [], history = [], busy = false;
+let totals = { in:0, cached:0, out:0, turns:0 };
+
+const res = await fetch('/api/scenarios');
+scenarios = await res.json();
+$('#scenario').innerHTML = scenarios.map(s => `<option value="${s.id}">${s.id}</option>`).join('');
+reset();
+
+function current() { return scenarios.find(s => s.id === $('#scenario').value); }
+
+function reset() {
+  history = [];
+  totals = { in:0, cached:0, out:0, turns:0 };
+  log.innerHTML = '';
+  const s = current();
+  if (s) {
+    history.push({ role:'assistant', content:s.opener });
+    bubble('assistant', s.opener);
+  }
+  renderStats();
+}
+
+function bubble(role, text) {
+  const el = document.createElement('div');
+  el.className = `msg ${role === 'user' ? 'user' : ''}`;
+  el.innerHTML = `<div><div class="bubble"></div><div class="meta"></div></div>`;
+  el.querySelector('.bubble').textContent = text;
+  log.appendChild(el);
+  $('#log').scrollTop = $('#log').scrollHeight;
+  return el;
+}
+
+function showMetrics(el, m) {
+  if (!m) return;
+  const parts = [];
+  if (m.ttftMs != null) parts.push(`TTFT ${m.ttftMs}ms`);
+  parts.push(`${m.llmLatencyMs}ms`);
+  parts.push(`in ${m.inputTokens}`);
+  if (m.cachedTokens == null) {
+    parts.push('cached 미지원');          // 공급자가 보고하지 않음
+  } else if (m.cachedTokens > 0) {
+    const pct = Math.round(m.cachedTokens / m.inputTokens * 100);
+    parts.push(`<span class="cached">cached ${m.cachedTokens} (${pct}%)</span>`);
+  } else {
+    parts.push('cached 0');               // 보고했으나 미적중
+  }
+  parts.push(`out ${m.outputTokens}`);
+  el.querySelector('.meta').innerHTML = parts.join(' · ');
+
+  totals.in += m.inputTokens ?? 0;
+  totals.cached += m.cachedTokens ?? 0;
+  totals.out += m.outputTokens ?? 0;
+  totals.turns++;
+  totals.provider = m.provider; totals.model = m.model;
+  renderStats();
+}
+
+function renderStats() {
+  if (!totals.turns) { $('#stats').textContent = ''; return; }
+  const hit = totals.in ? Math.round(totals.cached / totals.in * 100) : 0;
+  const prov = totals.provider ? `${totals.provider}/${totals.model} · ` : '';
+  $('#stats').textContent =
+    `${prov}누적 ${totals.turns}턴 · 입력 ${totals.in} 토큰 · 캐시 적중 ${totals.cached} (${hit}%) · 출력 ${totals.out}`;
+}
+
+async function send() {
+  const text = $('#text').value.trim();
+  if (!text || busy) return;
+  busy = true; $('#send').disabled = true;
+  $('#text').value = '';
+  bubble('user', text);
+
+  const s = current();
+  const payload = {
+    scenarioId: s.id, scenario: s.scenario,
+    history, message: text,
+    strategy: $('#strategy').value,
+    stream: $('#stream').checked,
+  };
+
+  const el = bubble('assistant', '');
+  const target = el.querySelector('.bubble');
+
+  try {
+    if (!payload.stream) {
+      const r = await fetch('/api/chat', {
+        method:'POST', headers:{'content-type':'application/json'},
+        body: JSON.stringify(payload),
+      });
+      const data = await r.json();
+      if (data.error) throw new Error(data.error);
+      target.textContent = data.reply;
+      history = data.history;
+      showMetrics(el, data.metrics);
+    } else {
+      const r = await fetch('/api/chat', {
+        method:'POST', headers:{'content-type':'application/json'},
+        body: JSON.stringify(payload),
+      });
+      const reader = r.body.getReader();
+      const dec = new TextDecoder();
+      let buf = '', acc = '';
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buf += dec.decode(value, { stream:true });
+        const frames = buf.split('\n\n'); buf = frames.pop();
+        for (const f of frames) {
+          const ev = /^event: (.+)$/m.exec(f)?.[1];
+          const dt = /^data: (.+)$/m.exec(f)?.[1];
+          if (!ev || !dt) continue;
+          const data = JSON.parse(dt);
+          if (ev === 'delta') {
+            acc += data.d; target.textContent = acc;
+            $('#log').scrollTop = $('#log').scrollHeight;
+          } else if (ev === 'done') {
+            history = data.history;
+            showMetrics(el, data.metrics);
+          } else if (ev === 'error') {
+            throw new Error(data.error);
+          }
+        }
+      }
+    }
+  } catch (e) {
+    target.textContent = `[오류] ${e.message}`;
+  } finally {
+    busy = false; $('#send').disabled = false; $('#text').focus();
+  }
+}
+
+$('#send').onclick = send;
+$('#reset').onclick = reset;
+$('#scenario').onchange = reset;
+$('#text').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+});
+</script>
+</body>
+</html>

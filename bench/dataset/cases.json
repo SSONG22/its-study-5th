@@ -1,0 +1,3442 @@
+[
+  {
+    "caseId": "cafe-d1",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "cafe-d3",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "cafe-d5",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "cafe-d10",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi, what can I get for you today?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "airport-d1",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "airport-d3",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "airport-d5",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "airport-d10",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good morning. May I see your passport?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "hotel-d1",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "hotel-d3",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "hotel-d5",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "hotel-d10",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Welcome. Do you have a reservation with us?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "clinic-d1",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "clinic-d3",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "clinic-d5",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "clinic-d10",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Good afternoon, Grove Clinic. How can I help?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "directions-d1",
+    "scenarioId": "directions",
+    "scenario": "Asking a stranger for directions to a subway station.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You look a bit lost. Need a hand?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "directions-d3",
+    "scenarioId": "directions",
+    "scenario": "Asking a stranger for directions to a subway station.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "directions-d5",
+    "scenarioId": "directions",
+    "scenario": "Asking a stranger for directions to a subway station.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "directions-d10",
+    "scenarioId": "directions",
+    "scenario": "Asking a stranger for directions to a subway station.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You look a bit lost. Need a hand?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "interview-d1",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "interview-d3",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "interview-d5",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "interview-d10",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for coming in. Tell me a bit about yourself."
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "standup-d1",
+    "scenarioId": "standup",
+    "scenario": "A daily standup with your engineering team. You are a teammate.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Morning. Want to go first today?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "standup-d3",
+    "scenarioId": "standup",
+    "scenario": "A daily standup with your engineering team. You are a teammate.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "standup-d5",
+    "scenarioId": "standup",
+    "scenario": "A daily standup with your engineering team. You are a teammate.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "standup-d10",
+    "scenarioId": "standup",
+    "scenario": "A daily standup with your engineering team. You are a teammate.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Morning. Want to go first today?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "restaurant-d1",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "restaurant-d3",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "restaurant-d5",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "restaurant-d10",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling Pierre's. How may I help you?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "refund-d1",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "refund-d3",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "refund-d5",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "refund-d10",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi there. Is something wrong with your purchase?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "taxi-d1",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "taxi-d3",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "taxi-d5",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "taxi-d10",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Evening. Where are we headed?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "bank-d1",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "bank-d3",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "bank-d5",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "bank-d10",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hello. What brings you in today?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "apartment-d1",
+    "scenarioId": "apartment",
+    "scenario": "Viewing an apartment you might rent. You are the landlord.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Come on in. Let me show you around."
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "apartment-d3",
+    "scenarioId": "apartment",
+    "scenario": "Viewing an apartment you might rent. You are the landlord.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "apartment-d5",
+    "scenarioId": "apartment",
+    "scenario": "Viewing an apartment you might rent. You are the landlord.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "apartment-d10",
+    "scenarioId": "apartment",
+    "scenario": "Viewing an apartment you might rent. You are the landlord.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Come on in. Let me show you around."
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "salon-d1",
+    "scenarioId": "salon",
+    "scenario": "Getting a haircut and explaining what you want. You are the stylist.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "So, what are we doing today?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "salon-d3",
+    "scenarioId": "salon",
+    "scenario": "Getting a haircut and explaining what you want. You are the stylist.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "salon-d5",
+    "scenarioId": "salon",
+    "scenario": "Getting a haircut and explaining what you want. You are the stylist.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "salon-d10",
+    "scenarioId": "salon",
+    "scenario": "Getting a haircut and explaining what you want. You are the stylist.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. So, what are we doing today?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "gym-d1",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "gym-d3",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "gym-d5",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "gym-d10",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hey. Looking to join?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "pharmacy-d1",
+    "scenarioId": "pharmacy",
+    "scenario": "Buying cold medicine and describing symptoms. You are the pharmacist.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi. What seems to be the trouble?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "pharmacy-d3",
+    "scenarioId": "pharmacy",
+    "scenario": "Buying cold medicine and describing symptoms. You are the pharmacist.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "pharmacy-d5",
+    "scenarioId": "pharmacy",
+    "scenario": "Buying cold medicine and describing symptoms. You are the pharmacist.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "pharmacy-d10",
+    "scenarioId": "pharmacy",
+    "scenario": "Buying cold medicine and describing symptoms. You are the pharmacist.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Hi. What seems to be the trouble?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "postoffice-d1",
+    "scenarioId": "postoffice",
+    "scenario": "Shipping a package overseas. You are the postal clerk.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Next, please. What are we sending today?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "postoffice-d3",
+    "scenarioId": "postoffice",
+    "scenario": "Shipping a package overseas. You are the postal clerk.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "postoffice-d5",
+    "scenarioId": "postoffice",
+    "scenario": "Shipping a package overseas. You are the postal clerk.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "postoffice-d10",
+    "scenarioId": "postoffice",
+    "scenario": "Shipping a package overseas. You are the postal clerk.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Next, please. What are we sending today?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "confcall-d1",
+    "scenarioId": "confcall",
+    "scenario": "A remote project sync with an overseas vendor. You are the vendor's PM.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Can everyone hear me alright?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "confcall-d3",
+    "scenarioId": "confcall",
+    "scenario": "A remote project sync with an overseas vendor. You are the vendor's PM.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "confcall-d5",
+    "scenarioId": "confcall",
+    "scenario": "A remote project sync with an overseas vendor. You are the vendor's PM.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "confcall-d10",
+    "scenarioId": "confcall",
+    "scenario": "A remote project sync with an overseas vendor. You are the vendor's PM.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Can everyone hear me alright?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "smalltalk-d1",
+    "scenarioId": "smalltalk",
+    "scenario": "Small talk with a new colleague in the office kitchen.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You're new here, right? I'm Dana."
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "smalltalk-d3",
+    "scenarioId": "smalltalk",
+    "scenario": "Small talk with a new colleague in the office kitchen.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "smalltalk-d5",
+    "scenarioId": "smalltalk",
+    "scenario": "Small talk with a new colleague in the office kitchen.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "smalltalk-d10",
+    "scenarioId": "smalltalk",
+    "scenario": "Small talk with a new colleague in the office kitchen.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. You're new here, right? I'm Dana."
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "complaint-d1",
+    "scenarioId": "complaint",
+    "scenario": "Handling an angry customer complaint. You are the upset customer.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "I've been waiting three weeks for this order."
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "complaint-d3",
+    "scenarioId": "complaint",
+    "scenario": "Handling an angry customer complaint. You are the upset customer.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "complaint-d5",
+    "scenarioId": "complaint",
+    "scenario": "Handling an angry customer complaint. You are the upset customer.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "complaint-d10",
+    "scenarioId": "complaint",
+    "scenario": "Handling an angry customer complaint. You are the upset customer.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. I've been waiting three weeks for this order."
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  },
+  {
+    "caseId": "moving-d1",
+    "scenarioId": "moving",
+    "scenario": "Arranging a moving company over the phone. You are the sales rep.",
+    "depth": 1,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling. When's the move?"
+      }
+    ],
+    "message": "I see. And how long does that usually take?"
+  },
+  {
+    "caseId": "moving-d3",
+    "scenarioId": "moving",
+    "scenario": "Arranging a moving company over the phone. You are the sales rep.",
+    "depth": 3,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      }
+    ],
+    "message": "Hmm, I'm not sure I follow. Could you explain?"
+  },
+  {
+    "caseId": "moving-d5",
+    "scenarioId": "moving",
+    "scenario": "Arranging a moving company over the phone. You are the sales rep.",
+    "depth": 5,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      }
+    ],
+    "message": "Right. And what about the cost?"
+  },
+  {
+    "caseId": "moving-d10",
+    "scenarioId": "moving",
+    "scenario": "Arranging a moving company over the phone. You are the sales rep.",
+    "depth": 10,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Sorry, could you say that again a bit slower?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "I see. And how long does that usually take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "That makes sense. What would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm, I'm not sure I follow. Could you explain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. Is there any other option I should consider?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Right. And what about the cost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Got it. One more thing I wanted to ask."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks. Let me think about that for a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, I changed my mind about that."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure. Thanks for calling. When's the move?"
+      }
+    ],
+    "message": "Sorry, could you say that again a bit slower?"
+  }
+]

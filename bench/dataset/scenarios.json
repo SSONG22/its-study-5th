@@ -1,0 +1,22 @@
+[
+  { "id": "cafe",       "scenario": "Ordering coffee at a busy cafe. You are the barista.", "opener": "Hi, what can I get for you today?" },
+  { "id": "airport",    "scenario": "Checking in for an international flight. You are the airline agent.", "opener": "Good morning. May I see your passport?" },
+  { "id": "hotel",      "scenario": "Checking into a hotel. You are the front desk clerk.", "opener": "Welcome. Do you have a reservation with us?" },
+  { "id": "clinic",     "scenario": "Booking a doctor's appointment by phone. You are the receptionist.", "opener": "Good afternoon, Grove Clinic. How can I help?" },
+  { "id": "directions", "scenario": "Asking a stranger for directions to a subway station.", "opener": "You look a bit lost. Need a hand?" },
+  { "id": "interview",  "scenario": "A job interview for a backend engineer role. You are the interviewer.", "opener": "Thanks for coming in. Tell me a bit about yourself." },
+  { "id": "standup",    "scenario": "A daily standup with your engineering team. You are a teammate.", "opener": "Morning. Want to go first today?" },
+  { "id": "restaurant", "scenario": "Making a dinner reservation by phone. You are the restaurant host.", "opener": "Thanks for calling Pierre's. How may I help you?" },
+  { "id": "refund",     "scenario": "Returning a defective item at a store. You are the sales associate.", "opener": "Hi there. Is something wrong with your purchase?" },
+  { "id": "taxi",       "scenario": "Taking a taxi from the airport to downtown. You are the driver.", "opener": "Evening. Where are we headed?" },
+  { "id": "bank",       "scenario": "Opening a bank account as a newcomer. You are the bank teller.", "opener": "Hello. What brings you in today?" },
+  { "id": "apartment",  "scenario": "Viewing an apartment you might rent. You are the landlord.", "opener": "Come on in. Let me show you around." },
+  { "id": "salon",      "scenario": "Getting a haircut and explaining what you want. You are the stylist.", "opener": "So, what are we doing today?" },
+  { "id": "gym",        "scenario": "Signing up for a gym membership. You are the staff member.", "opener": "Hey. Looking to join?" },
+  { "id": "pharmacy",   "scenario": "Buying cold medicine and describing symptoms. You are the pharmacist.", "opener": "Hi. What seems to be the trouble?" },
+  { "id": "postoffice", "scenario": "Shipping a package overseas. You are the postal clerk.", "opener": "Next, please. What are we sending today?" },
+  { "id": "confcall",   "scenario": "A remote project sync with an overseas vendor. You are the vendor's PM.", "opener": "Can everyone hear me alright?" },
+  { "id": "smalltalk",  "scenario": "Small talk with a new colleague in the office kitchen.", "opener": "You're new here, right? I'm Dana." },
+  { "id": "complaint",  "scenario": "Handling an angry customer complaint. You are the upset customer.", "opener": "I've been waiting three weeks for this order." },
+  { "id": "moving",     "scenario": "Arranging a moving company over the phone. You are the sales rep.", "opener": "Thanks for calling. When's the move?" }
+]
