@@ -30,6 +30,19 @@ export function newRecord({ label = process.env.RUN_LABEL ?? 'dev' } = {}) {
     inputTokens: null,
     cachedTokens: null,
     outputTokens: null,
+    reasoningTokens: null,   // 추론 모델이 내부적으로 쓴 토큰. 과금되지만 응답에 안 보인다
+    truncated: null,         // max_tokens 에 걸려 잘렸는지
+
+    // summary 전략의 압축 비용. full/window 에서는 null.
+    compactionCalls: 0,
+    compactionMs: null,
+    compactionInputTokens: null,
+    compactionOutputTokens: null,
+    compactionReasoningTokens: null,
+    compactionEmpty: null,   // 요약이 비면 summary 가 window 와 동일하게 동작한다
+
+    // 맥락 손실 프록시. window/summary 에서 원문으로 안 들어간 턴 수.
+    droppedTurns: null,
 
     // 지연
     ttftMs: null,        // 첫 토큰까지. 스트리밍일 때만 의미 있음

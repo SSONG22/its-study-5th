@@ -23,5 +23,19 @@ export function buildMessages({ history, strategy, windowSize, summary }) {
 
 // 요약 압축이 필요한 시점인지 판단한다. summary 전략에서만 호출한다.
 export function needsCompaction(history, windowSize) {
-  return history.length > windowSize * 2;
+  return history.length > windowSize;
+}
+
+// 압축 대상 = 윈도우 밖으로 밀려나는 앞부분.
+// 이 턴들이 요약으로 접히고, 뒤쪽 windowSize 턴만 원문으로 남는다.
+export function splitForCompaction(history, windowSize) {
+  return {
+    old: history.slice(0, -windowSize),
+    keep: history.slice(-windowSize),
+  };
+}
+
+// window 전략에서 잘려나가는 양. 맥락 손실의 객관적 프록시로 기록한다.
+export function droppedTurns(history, windowSize) {
+  return Math.max(0, history.length - windowSize);
 }

@@ -1,0 +1,2619 @@
+[
+  {
+    "caseId": "cafe-d2",
+    "probeId": "cafe",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "A large iced latte, please. And my name is Minji, M-I-N-J-I."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Could you write my name on the cup?",
+    "expected": [
+      "minji"
+    ],
+    "forbidden": [
+      "what's your name",
+      "what is your name",
+      "your name again",
+      "didn't catch your name"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "cafe-d6",
+    "probeId": "cafe",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "A large iced latte, please. And my name is Minji, M-I-N-J-I."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Could you write my name on the cup?",
+    "expected": [
+      "minji"
+    ],
+    "forbidden": [
+      "what's your name",
+      "what is your name",
+      "your name again",
+      "didn't catch your name"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "cafe-d12",
+    "probeId": "cafe",
+    "scenarioId": "cafe",
+    "scenario": "Ordering coffee at a busy cafe. You are the barista.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi, what can I get for you today?"
+      },
+      {
+        "role": "user",
+        "content": "A large iced latte, please. And my name is Minji, M-I-N-J-I."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Could you write my name on the cup?",
+    "expected": [
+      "minji"
+    ],
+    "forbidden": [
+      "what's your name",
+      "what is your name",
+      "your name again",
+      "didn't catch your name"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "airport-d2",
+    "probeId": "airport",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Here you go. I'm on flight AB1423 to Helsinki."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you confirm my flight number before I go?",
+    "expected": [
+      "ab1423",
+      "1423"
+    ],
+    "forbidden": [
+      "which flight",
+      "what flight",
+      "flight number again",
+      "what was your flight"
+    ],
+    "pattern": "\\b[A-Z]{2}\\s?\\d{3,4}\\b"
+  },
+  {
+    "caseId": "airport-d6",
+    "probeId": "airport",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Here you go. I'm on flight AB1423 to Helsinki."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you confirm my flight number before I go?",
+    "expected": [
+      "ab1423",
+      "1423"
+    ],
+    "forbidden": [
+      "which flight",
+      "what flight",
+      "flight number again",
+      "what was your flight"
+    ],
+    "pattern": "\\b[A-Z]{2}\\s?\\d{3,4}\\b"
+  },
+  {
+    "caseId": "airport-d12",
+    "probeId": "airport",
+    "scenarioId": "airport",
+    "scenario": "Checking in for an international flight. You are the airline agent.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good morning. May I see your passport?"
+      },
+      {
+        "role": "user",
+        "content": "Here you go. I'm on flight AB1423 to Helsinki."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you confirm my flight number before I go?",
+    "expected": [
+      "ab1423",
+      "1423"
+    ],
+    "forbidden": [
+      "which flight",
+      "what flight",
+      "flight number again",
+      "what was your flight"
+    ],
+    "pattern": "\\b[A-Z]{2}\\s?\\d{3,4}\\b"
+  },
+  {
+    "caseId": "hotel-d2",
+    "probeId": "hotel",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, under Park. I'm checking out on the 23rd."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Remind me what checkout date I gave you?",
+    "expected": [
+      "23rd",
+      "23"
+    ],
+    "forbidden": [
+      "which date",
+      "what date",
+      "when did you",
+      "when were you",
+      "remind me when"
+    ],
+    "pattern": "\\b\\d{1,2}(st|nd|rd|th)\\b"
+  },
+  {
+    "caseId": "hotel-d6",
+    "probeId": "hotel",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, under Park. I'm checking out on the 23rd."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Remind me what checkout date I gave you?",
+    "expected": [
+      "23rd",
+      "23"
+    ],
+    "forbidden": [
+      "which date",
+      "what date",
+      "when did you",
+      "when were you",
+      "remind me when"
+    ],
+    "pattern": "\\b\\d{1,2}(st|nd|rd|th)\\b"
+  },
+  {
+    "caseId": "hotel-d12",
+    "probeId": "hotel",
+    "scenarioId": "hotel",
+    "scenario": "Checking into a hotel. You are the front desk clerk.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Welcome. Do you have a reservation with us?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, under Park. I'm checking out on the 23rd."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Remind me what checkout date I gave you?",
+    "expected": [
+      "23rd",
+      "23"
+    ],
+    "forbidden": [
+      "which date",
+      "what date",
+      "when did you",
+      "when were you",
+      "remind me when"
+    ],
+    "pattern": "\\b\\d{1,2}(st|nd|rd|th)\\b"
+  },
+  {
+    "caseId": "clinic-d2",
+    "probeId": "clinic",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I need an appointment. Also, I'm allergic to penicillin."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Before we finish, what allergy did I mention earlier?",
+    "expected": [
+      "penicillin"
+    ],
+    "forbidden": [
+      "what allergy",
+      "which allergy",
+      "you didn't mention"
+    ],
+    "pattern": "\\b(penicillin|amoxicillin|ibuprofen|aspirin|sulfa|latex|codeine)\\b"
+  },
+  {
+    "caseId": "clinic-d6",
+    "probeId": "clinic",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I need an appointment. Also, I'm allergic to penicillin."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Before we finish, what allergy did I mention earlier?",
+    "expected": [
+      "penicillin"
+    ],
+    "forbidden": [
+      "what allergy",
+      "which allergy",
+      "you didn't mention"
+    ],
+    "pattern": "\\b(penicillin|amoxicillin|ibuprofen|aspirin|sulfa|latex|codeine)\\b"
+  },
+  {
+    "caseId": "clinic-d12",
+    "probeId": "clinic",
+    "scenarioId": "clinic",
+    "scenario": "Booking a doctor's appointment by phone. You are the receptionist.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Good afternoon, Grove Clinic. How can I help?"
+      },
+      {
+        "role": "user",
+        "content": "I need an appointment. Also, I'm allergic to penicillin."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Before we finish, what allergy did I mention earlier?",
+    "expected": [
+      "penicillin"
+    ],
+    "forbidden": [
+      "what allergy",
+      "which allergy",
+      "you didn't mention"
+    ],
+    "pattern": "\\b(penicillin|amoxicillin|ibuprofen|aspirin|sulfa|latex|codeine)\\b"
+  },
+  {
+    "caseId": "restaurant-d2",
+    "probeId": "restaurant",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I'd like a table on Friday. We're a party of seven."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How many people did I say we had?",
+    "expected": [
+      "seven",
+      " 7"
+    ],
+    "forbidden": [
+      "how many",
+      "party size",
+      "you didn't say"
+    ],
+    "pattern": "\\b(one|two|three|four|five|six|seven|eight|nine|ten|\\d{1,2})\\s+(people|guests|person)\\b"
+  },
+  {
+    "caseId": "restaurant-d6",
+    "probeId": "restaurant",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I'd like a table on Friday. We're a party of seven."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How many people did I say we had?",
+    "expected": [
+      "seven",
+      " 7"
+    ],
+    "forbidden": [
+      "how many",
+      "party size",
+      "you didn't say"
+    ],
+    "pattern": "\\b(one|two|three|four|five|six|seven|eight|nine|ten|\\d{1,2})\\s+(people|guests|person)\\b"
+  },
+  {
+    "caseId": "restaurant-d12",
+    "probeId": "restaurant",
+    "scenarioId": "restaurant",
+    "scenario": "Making a dinner reservation by phone. You are the restaurant host.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for calling Pierre's. How may I help you?"
+      },
+      {
+        "role": "user",
+        "content": "I'd like a table on Friday. We're a party of seven."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How many people did I say we had?",
+    "expected": [
+      "seven",
+      " 7"
+    ],
+    "forbidden": [
+      "how many",
+      "party size",
+      "you didn't say"
+    ],
+    "pattern": "\\b(one|two|three|four|five|six|seven|eight|nine|ten|\\d{1,2})\\s+(people|guests|person)\\b"
+  },
+  {
+    "caseId": "refund-d2",
+    "probeId": "refund",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The handle broke. My order number is 7781."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you pull up my order number again?",
+    "expected": [
+      "7781"
+    ],
+    "forbidden": [
+      "order number?",
+      "what is your order",
+      "which order"
+    ],
+    "pattern": "\\b\\d{4}\\b"
+  },
+  {
+    "caseId": "refund-d6",
+    "probeId": "refund",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The handle broke. My order number is 7781."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you pull up my order number again?",
+    "expected": [
+      "7781"
+    ],
+    "forbidden": [
+      "order number?",
+      "what is your order",
+      "which order"
+    ],
+    "pattern": "\\b\\d{4}\\b"
+  },
+  {
+    "caseId": "refund-d12",
+    "probeId": "refund",
+    "scenarioId": "refund",
+    "scenario": "Returning a defective item at a store. You are the sales associate.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Is something wrong with your purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The handle broke. My order number is 7781."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Can you pull up my order number again?",
+    "expected": [
+      "7781"
+    ],
+    "forbidden": [
+      "order number?",
+      "what is your order",
+      "which order"
+    ],
+    "pattern": "\\b\\d{4}\\b"
+  },
+  {
+    "caseId": "taxi-d2",
+    "probeId": "taxi",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Bradbury Street, please. The one near the old library."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which street did I say I was going to?",
+    "expected": [
+      "bradbury"
+    ],
+    "forbidden": [
+      "which street",
+      "what street",
+      "where again"
+    ],
+    "pattern": "\\b[A-Z][a-z]+\\s+(Street|St|Avenue|Ave|Road|Rd)\\b"
+  },
+  {
+    "caseId": "taxi-d6",
+    "probeId": "taxi",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Bradbury Street, please. The one near the old library."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which street did I say I was going to?",
+    "expected": [
+      "bradbury"
+    ],
+    "forbidden": [
+      "which street",
+      "what street",
+      "where again"
+    ],
+    "pattern": "\\b[A-Z][a-z]+\\s+(Street|St|Avenue|Ave|Road|Rd)\\b"
+  },
+  {
+    "caseId": "taxi-d12",
+    "probeId": "taxi",
+    "scenarioId": "taxi",
+    "scenario": "Taking a taxi from the airport to downtown. You are the driver.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Evening. Where are we headed?"
+      },
+      {
+        "role": "user",
+        "content": "Bradbury Street, please. The one near the old library."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which street did I say I was going to?",
+    "expected": [
+      "bradbury"
+    ],
+    "forbidden": [
+      "which street",
+      "what street",
+      "where again"
+    ],
+    "pattern": "\\b[A-Z][a-z]+\\s+(Street|St|Avenue|Ave|Road|Rd)\\b"
+  },
+  {
+    "caseId": "bank-d2",
+    "probeId": "bank",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I want to open an account. I'm a graduate student from Korea."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "What did I say about my situation?",
+    "expected": [
+      "student",
+      "korea"
+    ],
+    "forbidden": [
+      "tell me about yourself",
+      "what do you do"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "bank-d6",
+    "probeId": "bank",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I want to open an account. I'm a graduate student from Korea."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "What did I say about my situation?",
+    "expected": [
+      "student",
+      "korea"
+    ],
+    "forbidden": [
+      "tell me about yourself",
+      "what do you do"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "bank-d12",
+    "probeId": "bank",
+    "scenarioId": "bank",
+    "scenario": "Opening a bank account as a newcomer. You are the bank teller.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hello. What brings you in today?"
+      },
+      {
+        "role": "user",
+        "content": "I want to open an account. I'm a graduate student from Korea."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "What did I say about my situation?",
+    "expected": [
+      "student",
+      "korea"
+    ],
+    "forbidden": [
+      "tell me about yourself",
+      "what do you do"
+    ],
+    "pattern": null
+  },
+  {
+    "caseId": "gym-d2",
+    "probeId": "gym",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but I can only come on weekends because of work."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which days did I say I could come?",
+    "expected": [
+      "weekend",
+      "saturday",
+      "sunday"
+    ],
+    "forbidden": [
+      "which days",
+      "what days",
+      "when can you"
+    ],
+    "pattern": "\\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday|weekday|weekend)s?\\b"
+  },
+  {
+    "caseId": "gym-d6",
+    "probeId": "gym",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but I can only come on weekends because of work."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which days did I say I could come?",
+    "expected": [
+      "weekend",
+      "saturday",
+      "sunday"
+    ],
+    "forbidden": [
+      "which days",
+      "what days",
+      "when can you"
+    ],
+    "pattern": "\\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday|weekday|weekend)s?\\b"
+  },
+  {
+    "caseId": "gym-d12",
+    "probeId": "gym",
+    "scenarioId": "gym",
+    "scenario": "Signing up for a gym membership. You are the staff member.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Hey. Looking to join?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but I can only come on weekends because of work."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "Which days did I say I could come?",
+    "expected": [
+      "weekend",
+      "saturday",
+      "sunday"
+    ],
+    "forbidden": [
+      "which days",
+      "what days",
+      "when can you"
+    ],
+    "pattern": "\\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday|weekday|weekend)s?\\b"
+  },
+  {
+    "caseId": "interview-d2",
+    "probeId": "interview",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 2,
+    "factPosition": 1,
+    "distanceFromEnd": 6,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I worked at Hanbit for three years on payment systems."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How long did I say I worked there?",
+    "expected": [
+      "three year",
+      "3 year"
+    ],
+    "forbidden": [
+      "how long",
+      "how many years"
+    ],
+    "pattern": "\\b(\\d+|one|two|three|four|five|six|seven|eight|nine|ten)\\s+years?\\b"
+  },
+  {
+    "caseId": "interview-d6",
+    "probeId": "interview",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 6,
+    "factPosition": 1,
+    "distanceFromEnd": 14,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I worked at Hanbit for three years on payment systems."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How long did I say I worked there?",
+    "expected": [
+      "three year",
+      "3 year"
+    ],
+    "forbidden": [
+      "how long",
+      "how many years"
+    ],
+    "pattern": "\\b(\\d+|one|two|three|four|five|six|seven|eight|nine|ten)\\s+years?\\b"
+  },
+  {
+    "caseId": "interview-d12",
+    "probeId": "interview",
+    "scenarioId": "interview",
+    "scenario": "A job interview for a backend engineer role. You are the interviewer.",
+    "depth": 12,
+    "factPosition": 1,
+    "distanceFromEnd": 26,
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Thanks for coming in. Tell me a bit about yourself."
+      },
+      {
+        "role": "user",
+        "content": "I worked at Hanbit for three years on payment systems."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Alright, no problem."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "I see, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Yes, please."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That's good to know."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Sure, that works."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Okay, got it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, let me think."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      },
+      {
+        "role": "user",
+        "content": "That sounds fine."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, understood."
+      }
+    ],
+    "message": "How long did I say I worked there?",
+    "expected": [
+      "three year",
+      "3 year"
+    ],
+    "forbidden": [
+      "how long",
+      "how many years"
+    ],
+    "pattern": "\\b(\\d+|one|two|three|four|five|six|seven|eight|nine|ten)\\s+years?\\b"
+  }
+]

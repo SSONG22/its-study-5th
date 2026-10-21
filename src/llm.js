@@ -62,6 +62,8 @@ export async function chat({ messages, model, maxTokens = 300 }) {
     inputTokens: u.prompt_tokens ?? null,
     cachedTokens: cachedOf(u),
     outputTokens: u.completion_tokens ?? null,
+    reasoningTokens: u.completion_tokens_details?.reasoning_tokens ?? null,
+    truncated: res.choices[0]?.finish_reason === 'length',
   };
 }
 
@@ -98,5 +100,40 @@ export async function chatStream({ messages, model, maxTokens = 300, onDelta }) 
     inputTokens: usage.prompt_tokens ?? null,
     cachedTokens: cachedOf(usage),
     outputTokens: usage.completion_tokens ?? null,
+    reasoningTokens: usage.completion_tokens_details?.reasoning_tokens ?? null,
+    truncated: false,
+  };
+}
+
+
+// 대화 앞부분을 요약으로 압축한다. summary 전략에서만 호출된다.
+// 이 호출 자체가 토큰과 지연을 쓰므로 반드시 따로 재서 레코드에 남긴다 —
+// "summary 가 토큰을 줄였다" 만 보고 압축 비용을 빼먹으면 틀린 결론이 나온다.
+export async function summarize({ turns, previousSummary, model, maxTokens = 700 }) {
+  const t0 = performance.now();
+  const transcript = turns.map(t => `${t.role === 'user' ? 'Learner' : 'Partner'}: ${t.content}`).join('\n');
+  const messages = [
+    { role: 'system', content:
+      'Compress this roleplay conversation into a compact factual summary. ' +
+      'Keep concrete details the partner must remember: names, orders, numbers, ' +
+      'stated preferences, constraints, and anything the learner asked for. ' +
+      'Drop pleasantries. Write at most 4 sentences, no formatting.' },
+    { role: 'user', content: previousSummary
+      ? `Existing summary:\n${previousSummary}\n\nNew turns to fold in:\n${transcript}`
+      : transcript },
+  ];
+  const res = await client().chat.completions.create({ model, messages, max_tokens: maxTokens });
+  const u = res.usage ?? {};
+  const summary = res.choices[0]?.message?.content?.trim() ?? '';
+  return {
+    summary,
+    // 요약이 비면 summary 전략이 window 와 똑같이 동작한다.
+    // 조용히 넘어가면 "summary = window" 라는 틀린 결론이 나오므로 반드시 표시한다.
+    compactionEmpty: summary.length === 0,
+    compactionTruncated: res.choices[0]?.finish_reason === 'length',
+    compactionMs: Math.round(performance.now() - t0),
+    compactionInputTokens: u.prompt_tokens ?? null,
+    compactionOutputTokens: u.completion_tokens ?? null,
+    compactionReasoningTokens: u.completion_tokens_details?.reasoning_tokens ?? null,
   };
 }
