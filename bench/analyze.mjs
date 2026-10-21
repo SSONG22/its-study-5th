@@ -124,6 +124,50 @@ if (rows.some(r => r.depth != null)) {
   }
 }
 
+// 반복 측정이면 회차별 변동폭을 본다.
+// 조건 간 차이가 변동폭 안에 들어가면 그 차이는 결론으로 쓸 수 없다.
+const repeats = [...new Set(rows.map(r => r.repeat))];
+if (repeats.length > 1) {
+  console.log(`\n회차별 변동폭 (반복 ${repeats.length}회)`);
+  console.log('  ' + '전략'.padEnd(10) + '지표'.padEnd(12) + repeats.map(r => `회차${r + 1}`.padEnd(10)).join('') + '최소~최대'.padEnd(16) + '폭');
+  console.log('  ' + '-'.repeat(30 + repeats.length * 10 + 24));
+
+  const metrics = [
+    ['기억률%', rs => pct(rs.filter(r => r.probeVerdict === 'recalled').length, rs.length)],
+    ['입력토큰', rs => Math.round(avg(rs.map(r => r.inputTokens ?? 0)))],
+    ['비용(µ$)', rs => +(avg(rs.map(cost)) * 1e6).toFixed(2)],
+    ['규칙통과%', rs => pct(rs.filter(r => r.ruleAllPass).length, rs.length)],
+  ];
+
+  for (const [strategy, all] of byStrategy) {
+    for (const [name, fn] of metrics) {
+      if (name === '기억률%' && !hasProbe) continue;
+      const vals = repeats.map(rp => fn(all.filter(r => r.repeat === rp)));
+      const lo = Math.min(...vals), hi = Math.max(...vals);
+      console.log('  ' + strategy.padEnd(10) + name.padEnd(12) +
+        vals.map(v => String(v).padEnd(10)).join('') +
+        `${lo} ~ ${hi}`.padEnd(16) + (hi - lo).toFixed(2));
+    }
+  }
+
+  // 전략 간 차이가 변동폭보다 큰지 판정
+  if (baseline) {
+    console.log('\n차이가 변동폭보다 큰가');
+    for (const [strategy, all] of byStrategy) {
+      if (strategy === 'full') continue;
+      for (const [name, fn] of metrics) {
+        if (name === '기억률%' && !hasProbe) continue;
+        const a = repeats.map(rp => fn(byStrategy.get('full').filter(r => r.repeat === rp)));
+        const b = repeats.map(rp => fn(all.filter(r => r.repeat === rp)));
+        const spread = Math.max(Math.max(...a) - Math.min(...a), Math.max(...b) - Math.min(...b));
+        const diff = Math.abs(avg(b) - avg(a));
+        const verdict = diff > spread ? '유의' : '변동폭 안 (결론 불가)';
+        console.log(`  full vs ${strategy.padEnd(9)} ${name.padEnd(12)} 차이 ${diff.toFixed(2).padStart(7)}  변동폭 ${spread.toFixed(2).padStart(7)}  ${verdict}`);
+      }
+    }
+  }
+}
+
 // 규칙 위반 분포
 const fails = rows.flatMap(r => r.ruleFailed ?? []);
 if (fails.length) {
